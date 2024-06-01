@@ -28,7 +28,8 @@ header p {
 .hero {
     text-align: center;
     padding: 2rem 0;
-    background: url('https://via.placeholder.com/800x400.png') no-repeat center center/cover;
+    /* background: url('https://via.placeholder.com/800x400.png') no-repeat center center/cover; */
+    background: url('https://img.freepik.com/premium-photo/printed-circuit-board-background-3d-illustration-digital-technology_407240-1651.jpg?w=1380') no-repeat center center/cover;
     color: #fff;
 }
 .hero h2 {
