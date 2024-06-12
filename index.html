@@ -3,23 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Alon Menahem's CV</title>
+    <title>Alon Menahem</title>
     <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
     <header>
-        <h1>Alon Menahem</h1>
-        <p>Electronics Engineer | Maker | Master's Student at Bar Ilan University</p>
+        <div class="header-content">
+            <h1>Alon Menahem</h1>
+            <nav>
+                <ul>
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#experience">Work Experience</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
-    <div class="container">
-        <section class="profile">
+    <main>
+        <section id="about" class="section">
+            <h2>About Me</h2>
+            <p>I am an experienced electronics engineer with a strong background in embedded systems, PCB design, and prototyping. Currently, I am pursuing a master's degree at Bar Ilan University, driven by a passion for creating innovative solutions and bringing ideas to life through 3D printing and other advanced technologies.</p>
+            <h2>My Journey</h2>
+            <p>From a young age, I was fascinated by technological innovation. When I was just 10 years old, I began turning my room into a smart room, installing CCTV cameras and an electric coder at the entrance. This early curiosity and initiative set the foundation for more complex and intriguing projects as I grew older. About three years ago, I built an electric skateboard from scratch, involving everything from cutting wood to creating a custom battery from lithium cells and charging controllers. Additionally, many of my projects involve programming controllers like the Arduino IDE.</p>
             <h2>Profile</h2>
             <p>Experienced Electronics Engineer with a strong background in embedded systems, PCB design, and prototyping. Currently pursuing a Master's degree at Bar Ilan University. Passionate about creating innovative solutions and bringing ideas to life through 3D printing and other advanced technologies.</p>
         </section>
 
-        <section class="education">
+        <section id="education" class="section">
             <h2>Education</h2>
             <div class="card">
                 <h3>M.Sc. in Electrical and Electronics Engineering</h3>
@@ -37,18 +51,9 @@
                 <p>Graduated with honors, GPA: 94</p>
                 <p>2020 - 2023</p>
             </div>
-            <div class="card">
-                <h3>Expanding Mathematics, Physics, and Psychometric Studies</h3>
-                <p>2019 - 2020</p>
-            </div>
-            <div class="card">
-                <h3>Vocational Studies in Cooling and Air Conditioning Systems</h3>
-                <p>ORT Singalovski College</p>
-                <p>2015 - 2016</p>
-            </div>
         </section>
 
-        <section class="experience">
+        <section id="experience" class="section">
             <h2>Work Experience</h2>
             <div class="card">
                 <h3>Electronics Engineer</h3>
@@ -68,34 +73,21 @@
                 <p>2021</p>
                 <p>Trained student groups in first and second year courses at the Faculty of Engineering.</p>
             </div>
-            <div class="card">
-                <h3>Electronics Engineer</h3>
-                <p>Edwards Lifesciences</p>
-                <p>2019 - 2020</p>
-                <p>Manufactured systems for transporting implants into the heart cavity in a Cleanroom environment.</p>
-            </div>
-            <div class="card">
-                <h3>Cooling Systems Technician</h3>
-                <p>2016 - 2018</p>
-                <p>Repaired industrial and private refrigeration systems. Specialized in copper and tin soldering, and control of complex cooling systems.</p>
-            </div>
         </section>
 
-        <section class="skills">
-            <h2>Skills</h2>
+        <section id="skills" class="section">
+            <h2>Skills and Attributes</h2>
+            <p><strong>In One Sentence:</strong> When I set a goal for myself, it will be carried out in the most professional way possible, meeting all the goals I have set for it.</p>
             <ul>
-                <li>Embedded Systems</li>
-                <li>PCB Design</li>
-                <li>Prototyping</li>
-                <li>3D Printing</li>
-                <li>Product Testing</li>
-                <li>Project Management</li>
-                <li>Python, MATLAB, C, C++</li>
-                <li>ADS, Ansys Tools, OrCad CIS, Allegro, LTspice</li>
+                <li>Creative Thinking and Problem-Solving: I excel at finding innovative solutions to complex problems.</li>
+                <li>Proficiency in Mechanical, Electronic, and Computer Fields: My expertise spans across various technical domains, allowing me to tackle diverse challenges.</li>
+                <li>Systemic Vision and High Work Ethic: I am dedicated to achieving goals, capable of working under high pressure, and quick to integrate into any workplace.</li>
+                <li>Willingness to Learn: I am always eager to acquire new knowledge and skills, ensuring continuous growth and improvement.</li>
             </ul>
+            <p>My passion for technology and unwavering commitment to excellence define my approach to engineering. Whether through professional work or personal projects, I strive to push the boundaries of what's possible and create impactful, cutting-edge solutions.</p>
         </section>
 
-        <section class="projects">
+        <section id="projects" class="section">
             <h2>Projects</h2>
             <div class="card">
                 <h3>Smart Home Automation System</h3>
@@ -105,16 +97,28 @@
                 <h3>3D Printed Prosthetic Hand</h3>
                 <p>Designed and prototyped a functional prosthetic hand using 3D printing technology.</p>
             </div>
+            <div class="card">
+                <h3>Text Transfer Technology using Visible Light</h3>
+                <p>In 2022, I built a text transfer technology using visible light, aiming to transfer at least 100 GB/s of internet using a home LED lamp.</p>
+            </div>
+            <div class="card">
+                <h3>FPV Drone</h3>
+                <p>In 2021, I built an FPV drone that flies at speeds of 150 km/h, controlled by radio frequencies. The project involved designing various frames, 3D printing parts, assembling components, and programming the drone using flight controller modules like Betaflight.</p>
+            </div>
+            <div class="card">
+                <h3>Electric Skateboard</h3>
+                <p>In 2019, I built an electric skateboard from scratch, including 3D designing the frame, wood cutting, creating a battery from lithium cells, and assembling motors and controllers. The skateboard reaches speeds of about 55 km/h and is controlled by a rechargeable Bluetooth remote.</p>
+            </div>
         </section>
 
-        <section class="contact">
+        <section id="contact" class="section">
             <h2>Contact</h2>
             <p>Email: <a href="mailto:alon67009@gmail.com">alon67009@gmail.com</a></p>
             <p>Phone: <a href="tel:+972525457538">(+972) 52-545-7538</a></p>
             <p>Address: Shlomo HaMelekh St 97, Tel Aviv-Yafo, Israel</p>
             <p>LinkedIn: <a href="https://www.linkedin.com/in/alon-menahem-electrical-engineering/">linkedin.com/in/alon-menahem-electrical-engineering</a></p>
         </section>
-    </div>
+    </main>
 
     <footer>
         <p>&copy; 2024 Alon Menahem. All rights reserved.</p>
