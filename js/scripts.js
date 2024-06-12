@@ -1,3 +1,2 @@
-function getStarted() {
-    alert('Welcome to Alon\'s Electronics Lab! Let\'s get started with your project.');
-}
+// Currently, there are no scripts required for this simple CV website.
+// You can add interactivity here if needed in the future.
